@@ -36,6 +36,7 @@ public class MoviesDAO {
 			}
 */			connection = ConnectionManager.getDBConnection(jdbcUrl, username, password);
 		}
+		System.out.println("Successfully connected to the db !");
 	}
 
 	private void disconnect() throws SQLException {
