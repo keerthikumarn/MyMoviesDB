@@ -71,11 +71,28 @@ span.psw {
 	.cancelbtn {
 		width: 100%;
 	}
+	
+	
+}
+
+
+.bg {
+    /* The image used */
+    background-image: url("images/avatar.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 </style>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
-<body>
+
+<body class="bg">
 
 <center>
 <h2>Welcome to movie database application !! </h2><br> <br>

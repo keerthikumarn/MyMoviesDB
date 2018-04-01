@@ -27,7 +27,6 @@ public class MoviesDAO {
 	}
 
 	private void connect() throws SQLException {
-		System.out.println("Connecting to the db !");
 		if (connection == null || connection.isClosed()) {
 /*			try {
 				Class.forName("com.mysql.jdbc.Driver");
@@ -36,7 +35,6 @@ public class MoviesDAO {
 			}
 */			connection = ConnectionManager.getDBConnection(jdbcUrl, username, password);
 		}
-		System.out.println("Successfully connected to the db !");
 	}
 
 	private void disconnect() throws SQLException {

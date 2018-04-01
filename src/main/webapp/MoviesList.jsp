@@ -20,7 +20,11 @@
 		width: 153px;
 	}
 </style>
-  
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
@@ -33,8 +37,9 @@
 	</center>
 	
 	<center>
-    <div align="center">
-        <table border="3" cellpadding="5" cellspacing="5" bordercolor="red">
+    <div align="center" class="form-group">
+        <!-- <table border="3" cellpadding="5" cellspacing="5" bordercolor="red"> -->
+        <table class="table table-striped">
             <caption><h2>List of Movies</h2></caption>
             <tr>
                 <th>Movie Id</th>
